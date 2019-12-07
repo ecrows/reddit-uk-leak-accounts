@@ -15,12 +15,29 @@ From [the official release](https://www.reddit.com/r/redditsecurity/comments/e74
 >  
 > -- /u/worstnerd
 
-
 This repository provides code to collect the preserved information from the removed Reddit accounts, as well as a json archive of the resulting data.
+
+## The Data
+
+The data collected by this script can be found in `data/author_activity.json`.
+
+The results are stored as a JSON list, according to the following format:
+
+```
+[
+  {
+  "author": "gregoratior",
+  "submissions": [...],
+  "comments": [...]
+  },
+  ...
+```
+
+The resulting data is not edited, augmented, or filtered in any way.
 
 ## Requirements
 
-No special software is required for downloading and viewing the JSON data under `/data` (though you may want to use `pandas.read_json` if you're using Python).
+No special software is required for downloading and viewing the JSON data under `/data` (though you may want to avail yourself of `pandas.read_json` if you're using Python).
 
-To re-run the collection code, you will require [psaw](https://github.com/dmarx/psaw) which can be installed by typing:
-`pip install psaw`
+To re-run the collection code, you will require [psaw](https://github.com/dmarx/psaw) which can be installed by typing:  
+```pip install psaw```
