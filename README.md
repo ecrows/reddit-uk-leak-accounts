@@ -33,7 +33,7 @@ The results are stored as a JSON list, according to the following format:
   ...
 ```
 
-The resulting data is not edited, augmented, or filtered in any way.
+The data is not edited, augmented, or filtered in any way.  Usage of this data is subject to the [Reddit API Terms of Use](https://www.reddit.com/wiki/api-terms).
 
 ## Requirements
 
