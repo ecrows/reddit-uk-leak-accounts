@@ -1,4 +1,4 @@
-# User Activity from Reddit UK Leak Investigation
+# User Activity from Reddit UK Leak Investigation 2019
 
 On December 6th, 2019, Reddit released a list of 61 accounts that had been banned under suspicion of affiliation with an online influence campaign originating in Russia.
 
